@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black|Crete+Round|Dancing+Script|Indie+Flower|Lobster|Noto+Serif|Pacifico|Roboto|Satisfy|Shadows+Into+Light|EB+Garamond|Playfair+Display|Ms+Madi');
+
+p {
+  -webkit-margin-before: 0 !important;
+  -webkit-margin-after: 0 !important;
+  margin: 0 !important;
+  /* line-height: 0 !important; */
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  color: black; 
+  text-align: center;
+  font-family: Roboto, sans-serif;
+  line-height: normal !important;
+}
+span {
+  /* font-size: 40px; */
+  color: inherit;
+  line-height: 1.2 !important;
+  /* word-break: break-all; */
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  text-align: inherit;
+  font-family: inherit;
+}
+.testing {
+  background-color: red;
+}
+body {
+  min-height: auto !important;
+  font-size: 16px; /* Necessary to prevent iOS safari from auto zooming */
+  /* color: purple !important; */
+  overflow: hidden;
+}
+
+@supports (-webkit-overflow-scrolling: touch) {
+  /* CSS specific to iOS devices */ 
+  span, p {
+    /* word-break: normal; */
+  }
+}
+
+
+
+
+/* p {
+  color: red;
+  font-size: 24px;
+  display: inline;
+  font-family: 'Roboto', serif;
+  margin:0;
+}
+
+#tinymce {
+  text-align: center;
+  word-wrap: break-word;
+  overflow: hidden;
+  white-space:pre-wrap;
+  background-color: yellow;
+} */
+
+/* .no_height {
+  line-height: 0;
+}
+
+* {
+  border: none !important;
+} */
+
+/*html {
+  height: 100%;
+}
+body {
+  height: 100%;
+}*/
